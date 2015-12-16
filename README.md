@@ -31,6 +31,7 @@ The script will then ask you which badge color and font color you wish to use.
 ## TODO
 
 - [ ] Use SVG base badges instead of PNG
+- [ ] Support multiple selected files
 
 ## Contributing
 

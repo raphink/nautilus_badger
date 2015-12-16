@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="306"
+   height="306"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="template.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="90.447173"
+     inkscape:cy="155.81299"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1215"
+     inkscape:window-height="696"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="0"
+       x="0"
+       id="Badge"
+       xlink:href="file:///home/raphink/Dropbox/Homeschooling/Badges/colors/blue_badge.png"
+       height="306"
+       width="306"
+       inkscape:label="BadgeLabel" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#151668;fill-opacity:1;stroke:none;font-family:LeckerliOne;-inkscape-font-specification:LeckerliOne"
+       id="Text"
+       sodipodi:linespacing="125%"
+       inkscape:label="TextLabel"><textPath
+         xlink:href="#TextCircle"
+         startOffset="50%"
+         id="TextOnCircle">Español</textPath></text>
+    <path
+       style="opacity:0.83275715;fill:none;stroke:none"
+       d="m 151.51053,39.846381 c -41.96306,0.007 -82.330439,25.85117 -100.293819,63.613759 -18.47612,37.06638 -14.08154,84.27335 11.11219,117.23501 23.76007,32.29391 65.309169,49.956 105.067359,44.49627 41.57793,-4.87011 78.73396,-35.00679 92.28854,-74.61973 14.27109,-39.25719 4.27722,-85.78715 -24.8012,-115.657829 -21.40072,-22.61345 -52.21825,-35.65683 -83.37307,-35.06748 z"
+       id="TextCircle"
+       inkscape:connector-curvature="0" />
+    <image
+       y="73"
+       x="80"
+       id="Illustration"
+       xlink:href="file:///home/raphink/Dropbox/Homeschooling/Badges/illustrations/Español.svg"
+       height="95"
+       width="143"
+       inkscape:label="IllustrationLabel" />
+  </g>
+</svg>

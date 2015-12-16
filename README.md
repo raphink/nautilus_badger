@@ -13,6 +13,10 @@ Because I wanted to make OpenBadges for my kids and the website generators gave 
 $ ln -s $PWD/bin/create_badge_nautilus.sh "~/.local/share/nautilus/scripts/Generate Badge"
 ```
 
+## How to use
+
+In Nautilus, right click on an image (preferably with a transparent background) and choose `Scripts → Generate Badge`.
+
 ## Adding badge colors
 
 To add colors, just add files in the `color/` directory, named `<color>_badge.png`.

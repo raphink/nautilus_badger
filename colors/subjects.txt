@@ -1,0 +1,7 @@
+Languages blue        #151668
+Sports    orange      #f45929
+Travels   turquoise   #144062
+Test      lemon       #0e3f4f
+Science   red         #6a3f0d
+Music  purple  #8e2689
+Sysadmin  blue  #151668

@@ -75,6 +75,14 @@ if [ -z $COLOR ]; then
   echo "$SUBJECT  $COLOR  $TEXT_COLOR" >> $BADGES_DIR/colors/subjects.txt
 fi
 
+while [ -z $STARS ]; do
+  STARS=$(echo -e "No stars\n1\n2\n3\n4\n5\n" | \
+               zenity --list --title "Stars" \
+               --text "Select the number of stars" \
+               --column "Number of stars")
+  [ $? = 0 ] || exit
+done
+
 while [ -z $DPI ]; do
   DPI=$(zenity --entry --title "Select DPI" \
                --text "Enter the desired DPI" --entry-text "300")
@@ -102,6 +110,16 @@ BADGE_PATH="file://$(readlink -f $BADGES_DIR/colors/${COLOR}_badge.png)"
 
 TEXT_STYLE=$(echo $ORIG_TEXT_STYLE | sed -e "/fill:\([^;]\+\)/ s//fill:${TEXT_COLOR}/")
 
+if [ "x${STARS}" = "xNo stars" ]; then
+  STARS_CODE="rm //*[#attribute/inkscape:label='Star']"
+elif [ "x${STARS}" != "x5" ]; then
+  let "stars_start=${STARS}+1"
+  for i in $(seq $stars_start 5); do
+    STARS_CODE="${STARS_CODE}rm //*[#attribute/id='StarBright${i}']
+"
+  done
+fi
+
 echo "
 set //*[#attribute/id='Text']/textPath/#text '${TEXT}'
 set //*[#attribute/id='Text']/#attribute/style '${TEXT_STYLE}'
@@ -109,6 +127,9 @@ set //*[#attribute/id='Illustration']/#attribute/xlink:href '${ILL_PATH}'
 set //*[#attribute/id='Illustration']/#attribute/height '${ILL_TARGET_H}' 
 set //*[#attribute/id='Illustration']/#attribute/y '${ILL_TARGET_Y}' 
 set //*[#attribute/id='Badge']/#attribute/xlink:href '${BADGE_PATH}'
+${STARS_CODE}
+save
+errors
  " | augtool -Asnt "Xml.lns incl $TEMPLATE"
 
 mv "${TEMPLATE}.augnew" $SVG_FILE

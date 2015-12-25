@@ -6,3 +6,4 @@ Science   red         #6a3f0d
 Music     purple      #8e2689
 Logic     green       #026634
 Sysadmin  blue        #151668
+Writing   pink        #e41a1a

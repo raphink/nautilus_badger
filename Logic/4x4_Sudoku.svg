@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="template.svg">
+   sodipodi:docname="4x4_Sudoku.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="90.447173"
+     inkscape:cx="5.447173"
      inkscape:cy="155.81299"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -79,12 +79,12 @@
        id="TextCircle"
        inkscape:connector-curvature="0" />
     <image
-       y="49"
-       x="80"
+       y="63.85714"
+       x="92.928574"
        id="Illustration"
        xlink:href="file:///home/raphink/Dropbox/Homeschooling/Badges/illustrations/Sudoku_4x4.png"
-       height="143"
-       width="143"
+       height="120.14286"
+       width="120.14286"
        inkscape:label="IllustrationLabel" />
   </g>
 </svg>

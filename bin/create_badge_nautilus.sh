@@ -142,6 +142,6 @@ errors
  " | augtool -Asnt "Xml.lns incl $TEMPLATE"
 
 mv "${TEMPLATE}.augnew" $SVG_FILE
-inkscape $SVG_FILE -e $PNG_FILE -d $DPI
+inkscape $SVG_FILE -D -e $PNG_FILE -d $DPI
 
 eog $PNG_FILE

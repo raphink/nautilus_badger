@@ -26,7 +26,7 @@ while [ -z $TEXT ]; do
   [ $? = 0 ] || exit
 done
 
-NAME=${TEXT//[ \t\/]/_}
+NAME=${TEXT//[ \/]/_}
 
 while [ -z $SUBJECT ]; do
   SUBJECT=$(awk '{print $1}' $BADGES_DIR/colors/subjects.txt | \

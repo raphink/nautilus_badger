@@ -3,6 +3,11 @@ Nautilus badger generator
 
 This is a script to generate badges from a single click on an image in Nautilus.
 
+![Couture](Crafts/Couture___Point_de_piqure.png)
+![Lego Builder](Lego/Lego_Builder.png)
+![Grenouille](Sports/Natation___Grenouille.png)
+
+
 ## Why
 
 Because I wanted to make OpenBadges for my kids and the website generators gave ugly results.

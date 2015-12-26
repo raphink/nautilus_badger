@@ -3,9 +3,9 @@ Nautilus badger generator
 
 This is a script to generate badges from a single click on an image in Nautilus.
 
-<img src="Crafts/Couture___Point_de_piqure.png" width="100" />
-<img src="Lego/Lego_Builder.png" width="100" />
-<img src="Sports/Natation___Grenouille.png" width="100" />
+<img src="Crafts/Couture___Point_de_piqure.png" width="100" style="vertical-align:top" />
+<img src="Lego/Lego_Builder.png" width="100" style="vertical-align:top" />
+<img src="Sports/Natation___Grenouille.png" width="100" style="vertical-align:top" />
 
 
 

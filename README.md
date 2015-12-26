@@ -17,6 +17,10 @@ $ ln -s $PWD/bin/create_badge_nautilus.sh "~/.local/share/nautilus/scripts/Gener
 
 In Nautilus, right click on an image (preferably with a transparent background) and choose `Scripts → Generate Badge`.
 
+## Examples
+
+This repository comes with all the badges I generated so far (and more are to come). Just look around in the various folders.
+
 ## Adding badge colors
 
 To add colors, just add files in the `color/` directory, named `<color>_badge.png`.

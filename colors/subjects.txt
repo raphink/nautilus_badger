@@ -7,3 +7,5 @@ Music     purple      #8e2689
 Logic     green       #026634
 Sysadmin  blue        #151668
 Writing   pink        #e41a1a
+Lego      yellow      #ffc76f
+Crafts    darkgreen   #034f4c

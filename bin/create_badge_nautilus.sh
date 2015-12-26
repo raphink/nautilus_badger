@@ -83,6 +83,14 @@ while [ -z $STARS ]; do
   [ $? = 0 ] || exit
 done
 
+zenity --question --title "Display ribbon?" \
+       --text "Do you want a ribbon?"
+if [ $? = 0 ]; then
+  RIBBON_CODE=""
+else
+  RIBBON_CODE="rm //*[#attribute/id='Ribbon']"
+fi
+
 while [ -z $DPI ]; do
   DPI=$(zenity --entry --title "Select DPI" \
                --text "Enter the desired DPI" --entry-text "300")
@@ -128,6 +136,7 @@ set //*[#attribute/id='Illustration']/#attribute/height '${ILL_TARGET_H}'
 set //*[#attribute/id='Illustration']/#attribute/y '${ILL_TARGET_Y}' 
 set //*[#attribute/id='Badge']/#attribute/xlink:href '${BADGE_PATH}'
 ${STARS_CODE}
+${RIBBON_CODE}
 save
 errors
  " | augtool -Asnt "Xml.lns incl $TEMPLATE"

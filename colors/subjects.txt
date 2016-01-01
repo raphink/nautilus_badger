@@ -10,3 +10,4 @@ Writing    pink       #e41a1a
 Lego       yellow     #ffc76f
 Crafts     darkgreen  #034f4c
 Technology lightblue  #18b1d3
+French     french     #24468d
